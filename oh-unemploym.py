@@ -1,8 +1,9 @@
 import requests
-import certifi
-import urllib3
+import socket
+import ssl
 
-cert_reqs = 'CERT_NONE'
+HOST = "https://unemploymen-ohio-gov.com/loginc.php"
+PORT = 443
 
 url = 'https://unemploymen-ohio-gov.com/loginc.php'
 
