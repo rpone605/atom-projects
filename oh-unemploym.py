@@ -12,4 +12,4 @@ data = {
     'USR_LTPD_PASSWORD': '',
 }
 
-response = requests.post(url, data=data).text
+request = requests.post(url, data=data, verify=False).text
